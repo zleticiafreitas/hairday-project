@@ -3,9 +3,17 @@
   "description": "Aplicação web de agendamento para corte de cabelo",
   "author": "Leticia Freitas",
   "scripts": {
-    "server": "json-server --watch server.json"
+    "build": "webpack",
+    "server": "json-server --watch server.json",
+    "dev": "webpack server"
   },
   "dependencies": {
-    "json-server": "^1.0.0-alpha.21"
+    "json-server": "^1.0.0-alpha.21",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   }
 }
