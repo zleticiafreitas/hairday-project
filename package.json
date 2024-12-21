@@ -4,7 +4,7 @@
   "author": "Leticia Freitas",
   "scripts": {
     "build": "webpack",
-    "server": "json-server --watch server.json",
+    "server": "json-server --watch server.json --port 3000",
     "dev": "webpack server"
   },
   "dependencies": {
